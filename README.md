@@ -22,6 +22,14 @@ Si necesitas un enlace accesible desde cualquier lugar sin mantener tu PC encend
 2. Activa **GitHub Pages** desde `Settings` -> `Pages` en tu repositorio.
 3. Obtén la URL pública generada (o usa el enlace `Raw` del archivo proxy/PAC) para usarla como la dirección de proxy automático en tus dispositivos.
 
+4. ## ⚡ Enlace Listo para Usar (Opción Rápida)
+
+Si no quieres configurar un servidor ni crear tu propio repositorio, puedes usar directamente el archivo PAC que ya se encuentra activo y alojado en GitHub Gist:
+
+🔗 **URL del Proxy PAC:**
+```text
+[https://gist.githubusercontent.com/acorik/8a1115e070eed38038cb4be931c74a4e/raw/5612956c9654888b0b11e99259f01f8383cf4fe1/proxy.pac](https://gist.githubusercontent.com/acorik/8a1115e070eed38038cb4be931c74a4e/raw/5612956c9654888b0b11e99259f01f8383cf4fe1/proxy.pac)
+
 ---
 
 ## 📱 Configuración en Móviles (Bypass de restricciones de colegio)
