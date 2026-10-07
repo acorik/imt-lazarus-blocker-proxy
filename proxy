@@ -1,0 +1,15 @@
+function FindProxyForURL(url, host) {
+    // Definir los sitios y la IP a bloquear
+    if (
+        shExpMatch(host, "*imtlazarus.com") || 
+        shExpMatch(host, "*corazonsitas.imtlazarus.com") ||
+        shExpMatch(host, "51.75.253.210") ||
+        dnsResolve(host) == "51.75.253.210"
+    ) {
+        // Redirigir a una IP local inexistente para bloquear el acceso
+        return "PROXY deltamc.es";
+    }
+
+    // El resto de la navegación sigue normal (sin proxy)
+    return "DIRECT";
+}
